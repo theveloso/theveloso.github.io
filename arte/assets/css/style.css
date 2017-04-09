@@ -1,6 +1,5 @@
 /*!
- * Default theme v2 (https://mobirise.com/)
- * Copyright 2016 Mobirise
+ * Estilos
  */
 .container {
   position: relative; }
@@ -28,7 +27,7 @@
   background-color: #f3c649 !important; }
 
 .bg-danger {
-  background-color: #f28281 !important; }
+  background-color: #FBC020 !important; }
 
 .bg-none {
   background: none !important; }
@@ -198,29 +197,29 @@
     opacity: 0.85; }
 
 .btn-danger {
-  background-color: #f28281;
-  border-color: #f28281;
+  background-color: #FBC020;
+  border-color: #FBC020;
   box-shadow: none;
   color: #fff; }
   .btn-danger:hover {
     color: #fff;
-    background-color: #eb3d3c;
-    border-color: #eb3d3c;
+    background-color: #E2AD1D;
+    border-color: #E2AD1D;
     box-shadow: none; }
   .btn-danger:focus, .btn-danger.focus {
     color: #fff;
-    background-color: #eb3d3c;
-    border-color: #eb3d3c; }
+    background-color: #E2AD1D;
+    border-color: #E2AD1D; }
   .btn-danger:active, .btn-danger.active {
     color: #fff;
-    background-color: #eb3d3c;
-    border-color: #eb3d3c;
+    background-color: #E2AD1D;
+    border-color: #E2AD1D;
     background-image: none;
     box-shadow: none; }
   .btn-danger.disabled, .btn-danger:disabled {
     color: #fff !important;
-    background-color: #eb3d3c !important;
-    border-color: #eb3d3c !important;
+    background-color: #E2AD1D !important;
+    border-color: #E2AD1D !important;
     opacity: 0.85; }
 
 .btn-white {
@@ -331,8 +330,8 @@
 
 .btn-success-outline {
   background: none;
-  border-color: #5d7149;
-  color: #5d7149; }
+  border-color: #FBC020;
+  color: #FBC020; }
   .btn-success-outline:focus, .btn-success-outline.focus, .btn-success-outline:active, .btn-success-outline.active {
     color: #fff;
     background-color: #90a878;
@@ -353,12 +352,12 @@
   color: #c9970d; }
   .btn-warning-outline:focus, .btn-warning-outline.focus, .btn-warning-outline:active, .btn-warning-outline.active {
     color: #fff;
-    background-color: #f3c649;
-    border-color: #f3c649; }
+    background-color: #FBC020;
+    border-color: #FBC020; }
   .btn-warning-outline:hover {
     color: #fff;
-    background-color: #f3c649;
-    border-color: #f3c649; }
+    background-color: #FBC020;
+    border-color: #FBC020; }
   .btn-warning-outline.disabled, .btn-warning-outline:disabled {
     color: #fff !important;
     background-color: #f3c649 !important;
@@ -371,16 +370,16 @@
   color: #e82625; }
   .btn-danger-outline:focus, .btn-danger-outline.focus, .btn-danger-outline:active, .btn-danger-outline.active {
     color: #fff;
-    background-color: #f28281;
-    border-color: #f28281; }
+    background-color: #FBC020;
+    border-color: #FBC020; }
   .btn-danger-outline:hover {
     color: #fff;
-    background-color: #f28281;
-    border-color: #f28281; }
+    background-color: #FBC020;
+    border-color: #FBC020; }
   .btn-danger-outline.disabled, .btn-danger-outline:disabled {
     color: #fff !important;
-    background-color: #f28281 !important;
-    border-color: #f28281 !important;
+    background-color: #FBC020 !important;
+    border-color: #FBC020 !important;
     opacity: 0.85; }
 
 .btn-white-outline {
@@ -540,7 +539,7 @@ p.lead,
   .form-control, .form-control:focus {
     border: 1px solid #e8e8e8; }
   .form-active .form-control:invalid {
-    border-color: #f28281; }
+    border-color: #FBC020; }
 
 .form-control-label {
   cursor: pointer;
@@ -582,12 +581,10 @@ p.lead,
   color: #fff; }
 
 .alert-danger {
-  background-color: #f28281;
+  background-color: #FBC020;
   color: #fff; }
 
-/**
- * TYPOGRAPHY
- */
+/** * Tipografia  */
 body {
   font-family: 'Raleway', sans-serif;
   color: #232323; }
@@ -620,7 +617,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   color: #f3c649 !important; }
 
 .text-danger {
-  color: #f28281 !important; }
+  color: #FBC020 !important; }
 
 .text-white {
   color: #fff !important; }
@@ -874,11 +871,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     top: 50%;
     width: 40px; }
 
-/*-------
-
-   Gallery
-
--------*/
+/*-------  Galeria  -------*/
 .mbr-gallery .mbr-gallery-item {
   position: relative;
   display: inline-block;
@@ -1058,11 +1051,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   -o-transform: none;
   transform: none; }
 
-/*-------
-
-   Slider
-
--------*/
+/*-------   Carrousel Slider -------*/
 .mbr-slider .carousel-inner > .active,
 .mbr-slider .carousel-inner > .next,
 .mbr-slider .carousel-inner > .prev {
@@ -1070,14 +1059,14 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .mbr-slider .carousel-control {
   position: absolute;
-  width: 70px;
-  height: 70px;
-  top: 50%;
+  width: 40px;
+  height: 40px;
+  top: 60%;
   margin-top: -35px;
   line-height: 70px;
-  border-radius: 50%;
+  border-radius: 10%;
   color: inherit;
-  background: #1b1b1b;
+  background: #171717;
   border: 0;
   opacity: 0.5;
   text-shadow: none;
@@ -1110,12 +1099,12 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .mbr-slider .carousel-control .icon-next,
 .mbr-slider .carousel-control .icon-prev {
   margin-top: -18px;
-  font-size: 40px;
-  line-height: 27px; }
+  font-size: 1.4em;
+  line-height: 32px; }
 
 .mbr-slider .carousel-control:hover {
-  background: #1b1b1b;
-  color: #fff;
+  background: #FBC020;
+  color: #171717;
   opacity: 1; }
 
 .mbr-slider .carousel-indicators {
@@ -1192,11 +1181,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   padding-top: 0;
   padding-bottom: 0; }
 
-/*-------
-
-   Cards
-
--------*/
+/*-------   Cards -------*/
 .mbr-cards-row {
   position: relative;
   margin-left: 0 !important;
@@ -1291,11 +1276,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-cards .iconbox > .mbr-iconfont {
     line-height: inherit; }
 
-/*-------
-
-   Price Table
-
--------*/
+/*-------  Tabela preços -------*/
 @media (min-width: 1600px) {
   .mbr-price-table {
     padding-left: 12%;
@@ -1310,11 +1291,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
       .mbr-price-table .row > div {
         padding-bottom: 40px; } }
 
-/*-------
-
-   Price Table / Plan
-
--------*/
 .mbr-plan {
   background: none;
   border-radius: 0;
@@ -1394,11 +1370,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     padding-bottom: 1.375rem;
     padding-top: 1.875rem; }
 
-/*-------
-
-   Price Table / Price
-
--------*/
 .mbr-price {
   font-family: "Montserrat";
   line-height: 1.3; }
@@ -1415,11 +1386,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     font-size: 1.875rem;
     position: relative; }
 
-/*-------
-
-   Testimonials
-
--------*/
+/*-------   Tests -------*/
 .mbr-testimonials .row > div {
   padding-bottom: 40px; }
   .mbr-testimonials .row > div:last-child {
@@ -1430,11 +1397,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   .mbr-testimonials .row > div:nth-last-child(-1n+3) {
     padding-bottom: 0; } }
 
-/*-------
-
-   Testimonials / Item
-
--------*/
+/*-------   Tests / Item -------*/
 .mbr-testimonial {
   border-radius: 0;
   border: 0;
@@ -1477,11 +1440,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     .mbr-testimonial .card-footer:last-child {
       border-radius: 0; }
 
-/*-------
-
-   Testimonials / Author
-
--------*/
+/*-------   Tests / Autor-------*/
 .mbr-author-img {
   margin-top: -2.5rem; }
   .mbr-author-img img {
@@ -1503,21 +1462,13 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   font-weight: 400;
   line-height: 1.597; }
 
-/*-------
-
-   Info
-
--------*/
+/*-------   Infos -------*/
 .mbr-info-subtitle, .mbr-info-extra .mbr-info-title {
   margin-bottom: 0; }
 .mbr-info-extra .mbr-info-subtitle {
   margin-bottom: 0.5rem; }
 
-/*-------
-
-   Subscribe
-
--------*/
+/*-------   Inscrever -------*/
 .mbr-subscribe {
   background: #f5f5f5;
   border-radius: 3px;
@@ -1543,7 +1494,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
       right: -1px;
       top: -1px; }
   .form-active .mbr-subscribe .form-control:invalid ~ .input-group-btn::after {
-    border-color: #f28281; }
+    border-color: #FBC020; }
   .mbr-subscribe .btn {
     border-radius: 3px !important;
     margin-bottom: 0;
@@ -1554,23 +1505,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     .mbr-subscribe-dark .form-control {
       color: #fff; }
 
-/*-------
 
-   Small footer
-
--------*/
-.mbr-small-footer {
-  background: #323232;
-  color: #acacac;
-  font-size: 0.8125rem;
-  padding: 1.75rem 0; }
-  .mbr-small-footer p {
-    margin-bottom: 0; }
-
-.mbr-small-footer a {
-  color: #c0a375; }
-  .mbr-small-footer a:hover {
-    text-decoration: none; }
 
 /*-------
 
@@ -1697,75 +1632,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     clear: none !important;
     padding-bottom: 0 !important; } }
 
-/*-------
 
-   Company
-
--------*/
-.mbr-company {
-  background: none;
-  border-radius: 0;
-  border: 0;
-  margin-bottom: 0; }
-  .mbr-company .card-img-top {
-    height: 58px;
-    margin-bottom: 1.57rem;
-    width: auto; }
-  .mbr-company .card-block {
-    background: none;
-    padding: 0; }
-  .mbr-company .card-text {
-    color: #acacac;
-    font-size: 0.875rem;
-    margin-bottom: 1.57rem; }
-  .mbr-company .list-group {
-    display: block; }
-  .mbr-company .list-group-item {
-    background: none;
-    border: 0;
-    display: table;
-    padding: 0;
-    padding-bottom: 1.375rem;
-    width: 100%; }
-  .mbr-company .list-group-icon,
-  .mbr-company .list-group-text {
-    display: table-cell;
-    height: 2.25rem;
-    position: relative;
-    vertical-align: middle; }
-  .mbr-company .list-group-icon {
-    padding-right: 1.25rem;
-    text-align: center;
-    width: 3.5rem; }
-  .mbr-company .list-group-text {
-    color: #fff;
-    font-family: "Raleway";
-    font-size: 0.875rem;
-    line-height: 1.6;
-    position: static;
-    vertical-align: middle; }
-    .mbr-company .list-group-text::after {
-      border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
-      bottom: 0.625rem;
-      content: "";
-      display: block;
-      left: 0;
-      position: absolute;
-      width: 50%; }
-  .mbr-company .list-group-item.active, .mbr-company .list-group-item.active:hover {
-    background: none; }
-  .mbr-company .list-group-item.active .list-group-text {
-    color: #c0a375; }
-  .mbr-company .list-group-item:last-child {
-    padding-bottom: 0; }
-    .mbr-company .list-group-item:last-child .list-group-text::after {
-      display: none; }
-
-/*-------
-
-   Arrow
-
--------*/
+/*-------   Arrow -------*/
 @-webkit-keyframes floating-arrow {
   from {
     -webkit-transform: translateY(-4px);
@@ -2014,11 +1882,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .navbar-toggler {
   position: relative; }
 
-/*-------
-
-   Iconfont
-
--------*/
+/*-------   Iconfont -------*/
 /* iconfont default styling */
 /* for buttons */
 .mbr-iconfont.mbr-iconfont-btn,

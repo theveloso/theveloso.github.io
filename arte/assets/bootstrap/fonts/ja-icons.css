@@ -1,0 +1,398 @@
+@font-face {
+  font-family: 'JaIcons';
+  src:  url('ja-icons.eot?spat4u');
+  src:  url('ja-icons.eot?spat4u#iefix') format('embedded-opentype'),
+    url('ja-icons.ttf?spat4u') format('truetype'),
+    url('ja-icons.woff?spat4u') format('woff'),
+    url('ja-icons.svg?spat4u#JaIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="jai-"], [class*=" jai-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: JaIcons !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jai-alert:before {
+  content: "\e900";
+}
+.jai-android:before {
+  content: "\e901";
+}
+.jai-apple:before {
+  content: "\e902";
+}
+.jai-arrow-next:before {
+  content: "\e903";
+}
+.jai-arrow-prev:before {
+  content: "\e904";
+}
+.jai-bookmark:before {
+  content: "\e905";
+}
+.jai-bootstrap:before {
+  content: "\e906";
+}
+.jai-briefcase:before {
+  content: "\e907";
+}
+.jai-browse:before {
+  content: "\e908";
+}
+.jai-calendar:before {
+  content: "\e909";
+}
+.jai-camera:before {
+  content: "\e90a";
+}
+.jai-cart-add:before {
+  content: "\e90b";
+}
+.jai-cart-full:before {
+  content: "\e90c";
+}
+.jai-cash:before {
+  content: "\e90d";
+}
+.jai-change-style:before {
+  content: "\e90e";
+}
+.jai-chat:before {
+  content: "\e90f";
+}
+.jai-clock:before {
+  content: "\e910";
+}
+.jai-close:before {
+  content: "\e911";
+}
+.jai-cloud:before {
+  content: "\e912";
+}
+.jai-code:before {
+  content: "\e913";
+}
+.jai-contact-form:before {
+  content: "\e914";
+}
+.jai-credit-card:before {
+  content: "\e915";
+}
+.jai-cursor-click:before {
+  content: "\e916";
+}
+.jai-cust-feedback:before {
+  content: "\e917";
+}
+.jai-database:before {
+  content: "\e918";
+}
+.jai-delivery:before {
+  content: "\e919";
+}
+.jai-desktop:before {
+  content: "\e91a";
+}
+.jai-devices:before {
+  content: "\e91b";
+}
+.jai-down:before {
+  content: "\e91c";
+}
+.jai-download:before {
+  content: "\e972";
+}
+.jai-drag-n-drop:before {
+  content: "\e91e";
+}
+.jai-edit:before {
+  content: "\e91f";
+}
+.jai-edit2:before {
+  content: "\e920";
+}
+.jai-error:before {
+  content: "\e921";
+}
+.jai-extension:before {
+  content: "\e922";
+}
+.jai-features:before {
+  content: "\e923";
+}
+.jai-file:before {
+  content: "\e924";
+}
+.jai-flag:before {
+  content: "\e925";
+}
+.jai-folder:before {
+  content: "\e926";
+}
+.jai-gift:before {
+  content: "\e927";
+}
+.jai-globe:before {
+  content: "\e928";
+}
+.jai-globe-2:before {
+  content: "\e929";
+}
+.jai-growing-chart:before {
+  content: "\e92a";
+}
+.jai-hearth:before {
+  content: "\e92b";
+}
+.jai-help:before {
+  content: "\e92c";
+}
+.jai-home:before {
+  content: "\e92d";
+}
+.jai-hot-cup:before {
+  content: "\e92e";
+}
+.jai-idea:before {
+  content: "\e92f";
+}
+.jai-image-gallery:before {
+  content: "\e930";
+}
+.jai-image-slider:before {
+  content: "\e931";
+}
+.jai-info:before {
+  content: "\e932";
+}
+.jai-key:before {
+  content: "\e933";
+}
+.jai-laptop:before {
+  content: "\e934";
+}
+.jai-layers:before {
+  content: "\e935";
+}
+.jai-left:before {
+  content: "\e936";
+}
+.jai-letter:before {
+  content: "\e937";
+}
+.jai-like:before {
+  content: "\e938";
+}
+.jai-link:before {
+  content: "\e939";
+}
+.jai-lock:before {
+  content: "\e93a";
+}
+.jai-login:before {
+  content: "\e93b";
+}
+.jai-logout:before {
+  content: "\e93c";
+}
+.jai-magic-stick:before {
+  content: "\e93d";
+}
+.jai-map-pin:before {
+  content: "\e93e";
+}
+.jai-menu:before {
+  content: "\e93f";
+}
+.jai-mobile:before {
+  content: "\e940";
+}
+.jai-mobile2:before {
+  content: "\e941";
+}
+.jai-mobirise:before {
+  content: "\e942";
+}
+.jai-music:before {
+  content: "\e943";
+}
+.jai-new-file:before {
+  content: "\e944";
+}
+.jai-opened-folder:before {
+  content: "\e945";
+}
+.jai-pages:before {
+  content: "\e946";
+}
+.jai-paper-plane:before {
+  content: "\e947";
+}
+.jai-paperclip:before {
+  content: "\e948";
+}
+.jai-photo:before {
+  content: "\e949";
+}
+.jai-photos:before {
+  content: "\e94a";
+}
+.jai-pin:before {
+  content: "\e94b";
+}
+.jai-play:before {
+  content: "\e94c";
+}
+.jai-plus:before {
+  content: "\e94d";
+}
+.jai-preview:before {
+  content: "\e94e";
+}
+.jai-print:before {
+  content: "\e94f";
+}
+.jai-protect:before {
+  content: "\e950";
+}
+.jai-question:before {
+  content: "\e951";
+}
+.jai-quote:before {
+  content: "\e952";
+}
+.jai-refresh:before {
+  content: "\e953";
+}
+.jai-responsive:before {
+  content: "\e954";
+}
+.jai-right:before {
+  content: "\e955";
+}
+.jai-rocket:before {
+  content: "\e956";
+}
+.jai-sad-face:before {
+  content: "\e957";
+}
+.jai-sale:before {
+  content: "\e958";
+}
+.jai-save:before {
+  content: "\e959";
+}
+.jai-search:before {
+  content: "\e95a";
+}
+.jai-setting:before {
+  content: "\e95b";
+}
+.jai-setting2:before {
+  content: "\e95c";
+}
+.jai-setting3:before {
+  content: "\e95d";
+}
+.jai-share:before {
+  content: "\e95e";
+}
+.jai-shopping-bag:before {
+  content: "\e95f";
+}
+.jai-shopping-basket:before {
+  content: "\e960";
+}
+.jai-shopping-cart:before {
+  content: "\e961";
+}
+.jai-sites:before {
+  content: "\e962";
+}
+.jai-smile-face:before {
+  content: "\e963";
+}
+.jai-speed:before {
+  content: "\e964";
+}
+.jai-star:before {
+  content: "\e965";
+}
+.jai-success:before {
+  content: "\e966";
+}
+.jai-sun:before {
+  content: "\e967";
+}
+.jai-tablet:before {
+  content: "\e968";
+}
+.jai-target:before {
+  content: "\e969";
+}
+.jai-timer:before {
+  content: "\e96a";
+}
+.jai-to-ftp:before {
+  content: "\e96b";
+}
+.jai-to-local-drive:before {
+  content: "\e96c";
+}
+.jai-touch-swipe:before {
+  content: "\e96d";
+}
+.jai-touch:before {
+  content: "\e96e";
+}
+.jai-trash:before {
+  content: "\e96f";
+}
+.jai-unlock:before {
+  content: "\e970";
+}
+.jai-up:before {
+  content: "\e971";
+}
+.jai-upload:before {
+  content: "\e91d";
+}
+.jai-user:before {
+  content: "\e973";
+}
+.jai-user2:before {
+  content: "\e974";
+}
+.jai-users:before {
+  content: "\e975";
+}
+.jai-video:before {
+  content: "\e976";
+}
+.jai-video-play:before {
+  content: "\e977";
+}
+.jai-watch:before {
+  content: "\e978";
+}
+.jai-website-theme:before {
+  content: "\e979";
+}
+.jai-wifi:before {
+  content: "\e97a";
+}
+.jai-windows:before {
+  content: "\e97b";
+}
